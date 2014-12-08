@@ -55,9 +55,6 @@ autocmd BufWritePost *.py call Flake8()
 map P :TlistToggle
 
 if has("gui_running")
-    set guifont=SourceCodePro-Regular
-    "But the following for Powerline
-    "set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+    set guifont=SourceCodePro-Light:h18
 endif
-
 let g:Powerline_symbols = 'fancy'
