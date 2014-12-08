@@ -51,8 +51,9 @@ bindkey -v
 #source /usr/local/Cellar/bash-completion/1.3/etc/bash_completion
 #
 alias roam='cd ~/Documents/source_code/roammobility'
-alias ops='cd ~/Documents/source_code/roammobility/operations; source venv/bin/activate'
-alias prov='cd ~/Documents/source_code/roammobility/provisioning; source venv/bin/activate'
+alias ops='cd ~/Documents/source_code/roammobility/operations'
+alias prov='cd ~/Documents/source_code/roammobility/provisioning'
+alias util='cd ~/Documents/source_code/roammobility/utils'
 
 alias ggui='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 
