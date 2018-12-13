@@ -5,9 +5,9 @@ export ZSH=/Volumes/Case_Sensitive_HD/kevin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="agnoster"
+ZSH_THEME="agnoster"
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="rootsmith"
+#ZSH_THEME="rootsmith"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -88,6 +88,7 @@ bindkey -v
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias otono="source ~/Documents/source_code/vimenv/bin/activate; cd ~/Documents/source_code/otono"
+alias traderbot="source ~/Documents/source_code/tbvenv/bin/activate; cd ~/Documents/source_code/traderbot"
 alias ggui='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 
 
@@ -99,4 +100,4 @@ fi
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export HOMEBREW_NO_ANALYTICS=1
-export HOMEBREW_GITHUB_API_TOKEN="32a6e23dc5a7527453df13e2d7dcdae1945da404"
+#export HOMEBREW_GITHUB_API_TOKEN="32a6e23dc5a7527453df13e2d7dcdae1945da404"
