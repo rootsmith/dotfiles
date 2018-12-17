@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Volumes/Case_Sensitive_HD/kevin/.oh-my-zsh
+export ZSH=/Users/kevin/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
