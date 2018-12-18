@@ -1,16 +1,21 @@
-" Vundle setup
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"Vundle setup
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
 " #### PLUGIN DECLARATIONS START ####
 
-" This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
 " 'user/repository' format
 " We could also add repositories with a ".git" extension
-Plugin 'gmarik/vundle'
 
 Plugin 'vim-airline/vim-airline.git'
 Plugin 'scrooloose/syntastic.git'
@@ -18,6 +23,7 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'ctrlpvim/ctrlp.vim.git'
 Plugin 'tpope/vim-fugitive.git'
 Plugin 'tpope/vim-vividchalk.git'
+Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'rking/ag.vim.git'
 Plugin 'Shougo/neocomplete.vim.git'
 Plugin 'hashivim/vim-terraform.git'
@@ -27,17 +33,27 @@ Plugin 'othree/html5.vim.git'
 
 " #### PLUGIN DECLARATIONS END ####
 
-" Now we can turn our filetype functionality back on
-filetype on " enables filetype detection
-filetype plugin on " enables filetype specific plugins
-filetype plugin indent on
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" 
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 
 set encoding=utf-8 " Necessary to show unicode glyphs in Powerline
 set term=ansi
 
 if has("gui_running")
-    colorscheme vividchalk
-    set guifont=SourceCodePro-Light:h18
+    colorscheme solarized
+    set guifont=Source\ Code\ Pro\ Light\ for\ Powerline:h18
 endif
 
 let g:Powerline_symbols = 'fancy'
