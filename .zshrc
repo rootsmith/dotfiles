@@ -87,7 +87,7 @@ bindkey -v
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias otono="source ~/Documents/source_code/vimenv/bin/activate; cd ~/Documents/source_code/otono"
+alias idemia="source ~/Documents/source_code/vimenv/bin/activate; cd ~/Documents/source_code/idemia"
 alias traderbot="source ~/Documents/source_code/tbvenv/bin/activate; cd ~/Documents/source_code/traderbot"
 alias ggui='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 
