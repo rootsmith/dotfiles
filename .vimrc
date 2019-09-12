@@ -18,7 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 " We could also add repositories with a ".git" extension
 
 Plugin 'vim-airline/vim-airline.git'
-Plugin 'scrooloose/syntastic.git'
+Plugin 'vim-syntastic/syntastic.git'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'ctrlpvim/ctrlp.vim.git'
 Plugin 'tpope/vim-fugitive.git'
@@ -30,6 +30,7 @@ Plugin 'hashivim/vim-terraform.git'
 Plugin 'mustache/vim-mustache-handlebars.git'
 Plugin 'saltstack/salt-vim.git'
 Plugin 'othree/html5.vim.git' 
+Plugin 'nvie/vim-flake8.git'
 
 " #### PLUGIN DECLARATIONS END ####
 
