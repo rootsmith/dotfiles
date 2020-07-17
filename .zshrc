@@ -91,7 +91,6 @@ alias idemia="source ~/Documents/source_code/vimenv/bin/activate; cd ~/Documents
 alias traderbot="source ~/Documents/source_code/tbvenv/bin/activate; cd ~/Documents/source_code/traderbot"
 alias ggui='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 
-
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ] ; then
     export PATH=~/bin:"${PATH}"
@@ -101,3 +100,19 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export HOMEBREW_NO_ANALYTICS=1
 #export HOMEBREW_GITHUB_API_TOKEN="32a6e23dc5a7527453df13e2d7dcdae1945da404"
+
+export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
+
+# Java 8
+export JAVA_HOME=$JAVA_HOME_8
+
+# As suggested by a brew upgrade
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+export GUILE_LOAD_PATH="/usr/local/share/guile/site/3.0"
+export GUILE_LOAD_COMPILED_PATH="/usr/local/lib/guile/3.0/site-ccache"
+export GUILE_SYSTEM_EXTENSIONS_PATH="/usr/local/lib/guile/3.0/extensions"
