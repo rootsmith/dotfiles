@@ -10,7 +10,7 @@ To set up a new personal box, first must install:
 - Source Code Pro for Powerline fonts
   - Download OTF fonts from https://github.com/powerline/fonts
   - install using Font Book app
-  - set font to Soure Code Pro for Powerline in iTerm2 -> Preferences -> Profiles (Default) -> Text
+  - set font to Soure Code Pro for Powerline and size to whatever looks best in iTerm2 -> Preferences -> Profiles (Default) -> Text
 - Solarized theme
 - VIM for Mac OS (mvim)
 - brew
