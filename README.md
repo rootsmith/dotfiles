@@ -25,6 +25,8 @@ Then install:
   - install using Font Book app
   - set font to Soure Code Pro for Powerline Black in iTerm2 -> Preferences -> Profiles (Default) -> Text
   - note that size looks best as 14 for 16" MacBook Pro and 16 for 13" MacBook Pro
+- Install powerline?
+  - `pip3 install --user git+git://github.com/powerline/powerline`
 - Solarized theme
 - VIM for Mac OS (mvim)
 - intall Vundle:
