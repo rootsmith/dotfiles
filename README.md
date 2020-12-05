@@ -5,6 +5,9 @@ To set up a new personal box, enable iCloud and it will sync the following direc
 - `~/Desktop`
 - `~/Documents`
 
+Create the following symbolic link:
+- `ln -s ~/Documents/bin ~/bin`
+
 Note that `~/Downloads` is not synced, therefore, if there is something important, back it up!
 
 Also:
