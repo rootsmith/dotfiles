@@ -1,7 +1,17 @@
 # dotfiles
 My dot files
 
-To set up a new personal box, first must install:
+To set up a new personal box, enable iCloud and it will sync the following directories:
+- `~/Desktop`
+- `~/Documents`
+
+Note that `~/Downloads` is not synced, therefore, if there is something important, back it up!
+
+Also:
+- grab anything out of `~/.ssh` like pem files or key pairs
+- grab anything out of `~/.aws` like config and keys
+
+Then install:
 
 - iTerm2
   - set colour scheme to Solarized (Dark|Light) in Preferences -> Profiles (Default) -> Colors -> Color Presets (Solarized should be built in)
@@ -18,3 +28,4 @@ To set up a new personal box, first must install:
 - do a `git clone git@github.com:rootsmith/dotfiles.git` this repo into home directory and then:
   - `ln -s ~/dotfiles/.zshrc ~/.zshrc`
   - `ln -s ~/dotfiles/.vimrc ~/.vimrc`
+  - `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
