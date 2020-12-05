@@ -20,13 +20,15 @@ Then install:
   - set colour scheme to Solarized (Dark|Light) in Preferences -> Profiles (Default) -> Colors -> Color Presets (Solarized should be built in)
 - zsh
 - oh-my-zsh
+- powerline
+  - `pip3 install --user git+git://github.com/powerline/powerline`
+  - ensure that the install location matches the following line in `.vimrc`: `set rtp+=~/Library/Python/3.8/lib/python/site-packages/powerline/bindings/vim/`
+  - if not, find location via `python3 -m site --user-site` or without the `--user-site`
 - Source Code Pro for Powerline fonts
   - Download OTF fonts from https://github.com/powerline/fonts
   - install using Font Book app
   - set font to Soure Code Pro for Powerline Black in iTerm2 -> Preferences -> Profiles (Default) -> Text
   - note that size looks best as 14 for 16" MacBook Pro and 16 for 13" MacBook Pro
-- Install powerline?
-  - `pip3 install --user git+git://github.com/powerline/powerline`
 - Solarized theme
 - VIM for Mac OS (mvim)
 - intall Vundle:
