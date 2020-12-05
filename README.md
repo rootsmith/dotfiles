@@ -27,6 +27,8 @@ Then install:
   - note that size looks best as 14 for 16" MacBook Pro and 16 for 13" MacBook Pro
 - Solarized theme
 - VIM for Mac OS (mvim)
+- intall Vundle:
+  - `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 - brew
 - do a `git clone git@github.com:rootsmith/dotfiles.git` this repo into home directory and then:
   - `ln -s ~/dotfiles/.zshrc ~/.zshrc`
