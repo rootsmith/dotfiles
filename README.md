@@ -15,3 +15,6 @@ To set up a new personal box, first must install:
 - Solarized theme
 - VIM for Mac OS (mvim)
 - brew
+- do a `git clone ` this repo into home directory and then:
+`ln -s ~/dotfiles/.zshrc ~/.zshrc`
+`ln -s ~/dotfiles/.vimrc ~/.vimrc`
